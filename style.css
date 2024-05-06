@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#star-div{
+    height: 50px;
+    padding: 16px ,0px ,16px ,0px;
+    gap: 8px;
+    background: #FFFFFF;
+
+
+}
+#star-div p{
+    text-align: center;
+color: #373737;
+
+font-size: 20px;
+line-height: 24px;
+font-weight: 550;
+justify-content: center;
+margin-top: 18px;
+}
+/* footer */
+#nav {
+    height: 70px;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #F1813A;
+padding: 0px 10px 0px 10px;
+padding: 10px;
+}
+#nav img{
+    margin-bottom:20px ;
+    height: 60px;
+    width: 100px;
+
+}
+#nav h4 {
+
+/* position: absolute; */
+    margin-right: 60px;
+float: right;
+}
+/* section */
+#main {
+    height: 100vh;
+    width: 100vw;
+    background-color:#F1813A;
+    /* margin-top: 50px; */
+/* background: #F1813A; */
+display: inline-block;
+}
+
+.heading {
+    margin-top: 15vh;
+    margin-left: 5vw;
+  
+    color: grey;
+    gap: 10px;
+display:flex;
+font-size: 30px;
+font-weight: -100;
+color: #fff;
+}
+
+#main p {
+    font-size: 30px;
+    font-weight: -10;
+    margin-left: 20px;
+    color: grey;
+    color:#fff;
+    position: absolute;
+    left: 4%;
+
+}
+
+#mobile-img{
+height: 410px;
+width: 400px;
+position: absolute;
+bottom: 10%;
+right: 10%;
+object-fit: cover;
+
+}
+#button{
+    width: 165px;
+    height: 48px;
+    margin: 30px 0px 0px ;
+    padding: 15px;
+    border-radius: 10vh  ;
+ margin-left: 15%;
+ margin-top: 200px;
+ font-size: 17px;
+ color: #F1813A;
+ }
+/* //next section */
+.page1{
+    height: 50vh;
+    width: 100vw;
+    background-color:#F1813A;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 150px;
+padding-right: 150px;
+/* justify-content: space-evenly; */
+padding-bottom: 130px;
+}
+.div1 h4{
+    font-size: 25px;
+    margin-top: 10px;
+color: white;
+font-weight: 100;
+
+}
+.div1 img{
+    height: 70px;
+    width: 70px;
+    
+}
+
+.div1 p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.page2{
+    height: 100vh;
+    width: 100vw;
+background-color:#FFFFFF;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding: 80px 30px 80px 30px;
+}
+.heading1{
+    position: absolute;
+left: 40%;
+margin-top: 10px;
+font-size: 1.5rem;
+color: #F1813A;
+
+}
+.page2 .para1{
+height: 230px;
+width: 390px;
+border: 2px solid black;
+font-size: 1.2rem;
+border-radius: 10px;
+background-color:#FAFAFA;
+padding: 15px 15px 10px 15px;
+
+}
+.para1:hover{
+    
+box-shadow: 5px 5px 5px 5px   #F1813A;
+
+
+}
+/* section page3 ki css */
+
+.page3{
+    display: flex;
+    padding: 30px 50px 0px 50px;
+    position: relative;
+}
+.heading2 h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #F1813A;
+    font-weight: 100;
+margin-left:35% ;
+margin-bottom: 100px;
+/* position: absolute; */
+
+
+}
+.page3-button{
+border:2px solid white;
+background-color: #F1813A;
+color: white;
+height: 45px;
+width: 100px;
+border-radius: 25px;
+margin-left: 100px;
+font-size: 16px;
+
+}
+.heading3{
+    color: #373737;
+    font-size: 1.9rem;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-left:100px ;
+}
+.content-img img{
+    margin-top: 200px;
+    width: 500px;
+    height: 300px;
+}
+.p1, .p2{
+    margin: 30px 60px 0px 0px;
+font-size: 20px;
+font-weight: 50;
+width: 60%;
+line-height: 30px;
+
+}
+/* idhar se page 4 ki css chalu hai upar page 3 ki hai */
+.page4{
+    margin-top: 100px;
+    display: flex;
+}
+.page4-button{
+    border:2px solid white;
+    background-color: #F1813A;
+    color: white;
+    height: 45px;
+    width: 100px;
+    border-radius: 25px;
+    margin-left: 10%;
+    font-size: 16px;
+
+}
+.content-img3 img{
+    height: 400px;
+    width: 650px;
+}
+.heading3 h1{
+    color: #373737;
+    font-size: 1.9rem;
+    margin-left: 100px;
+
+}
+.page4 p{
+
+    font-size: 1.4rem;
+    /* width: 90%; */
+margin: 50px 100px 50px 100px;
+line-height: 30px;
+
+}
+/* page 5 ki css idar se start hai */
+.page5{
+    display: flex;
+    padding: 0px 100px 0px 100px;
+}
+.page5 button{
+    margin-top: 100px;
+}
+.page5 h1{
+text-align: start;
+margin-left: 50px;
+margin-top: 50px;
+color: #373737;
+font-weight: 100;
+}
+.page5 img{
+    margin-top: 100px;
+}
+.page5 p{
+margin-top: -30px;
+font-size: 1.5rem;
+font-weight: 100;
+}
+.page5 p{
+
+    margin-top: 50px;
+text-align: left;
+margin-left: 60px;
+
+}
+.page5 img{
+    width: 550px;
+}
+.page5 h1  {
+margin-left:-30px ;
+}
+/* page 7 ki css upar jo hai bo page 6 ki hai but i give a page 5 */
+
+.page7{
+
+}
+.page7 h1 {
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    font-weight: 100;
+    word-spacing: 7px;
+}
+.page7 .startbutton{ 
+margin: 100px; 
+left: 37%;
+position: absolute;
+border: 2px solid ;
+height: 55px;
+width: 170px;
+border-radius: 20px;
+background-color: #F1813A;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+.page7h2{
+    margin-top: 300px;
+    text-align: center;
+    color: #F1813A;
+    font-size: 2rem;
+word-spacing: 10px;
+
+
+}
+.page7h3{
+    margin-top: 50px;
+    text-align: center;
+    /* word-spacing: 10px; */
+    font-size: 1.5rem;
+    font-family:serif;
+    font-weight: 100;
+}
+
